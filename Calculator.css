@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}
+.bg{
+    background-color: white;
+    height:100vh;
+}
+.bg1{
+    background-color: #717171;
+    height:650px;
+    width:550px;
+    margin-top: 100px;
+    margin-left:400px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 26px;
+}
+.bg2{
+    background-color: #80c080;
+    width:500px;
+    height:70px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left:30px;
+    box-shadow: 5px 5px 10px white;
+}
+.bg3{
+    background-color: rgb(196, 60, 60);
+    color: white;
+    border-color: white;
+    border-width: 3px;
+    width:90px;
+    font-size: 25px;
+    height: 60px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 35px;
+    box-shadow: 2px 2px 5px rgb(177, 25, 25);
+}
+.bg4{
+    background-color: rgb(118, 229, 67);
+    color: rgb(29, 23, 23);
+    border-color: rgb(29, 21, 21);
+    border-width: 3px;
+    box-shadow: 2px 2px 5px black;
+    font-size: 30px;
+    width:90px;
+    height: 60px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+.bg5{
+        background-color: rgb(57, 97, 184);
+        color: rgb(15, 17, 20);
+        border-color: rgb(29, 21, 21);
+        border-width: 3px;
+        font-size: 30px;
+        width:90px;
+        height: 60px;
+        border-radius: 5px;
+        margin-top: 40px;
+        margin-left: 35px;
+    }
+.bg6{
+       background-color: rgb(203, 41, 176);
+        color: rgb(15, 17, 20);
+        border-color: rgb(29, 21, 21);
+        border-width: 3px;
+        font-size: 30px;
+        width:90px;
+        height: 60px;
+        border-radius: 5px;
+        margin-top: 40px;
+        margin-left: 35px;
+}
+.bg7{
+    background-color: rgb(62, 138, 204);
+        color: rgb(15, 17, 20);
+        border-color: rgb(29, 21, 21);
+        border-width: 3px;
+        font-size: 30px;
+        width:90px;
+        height: 60px;
+        border-radius: 5px;
+        margin-top: 40px;
+        margin-left: 35px;
+}
+.bg8{
+       background-color: rgb(209, 225, 35);
+        color: rgb(15, 17, 20);
+        border-color: rgb(29, 21, 21);
+        box-shadow: 5px 5px 5px rgb(154, 180, 7);
+        border-width: 3px;
+        font-size: 30px;
+        width:90px;
+        height: 160px;
+        border-radius: 5px;
+        margin-top: 40px;
+        margin-left: 35px;
+}
+.bg9{
+    background-color: rgb(206, 140, 33);
+    color: white;
+    border-color: rgb(71, 2, 2);
+    border-width: 3px;
+    box-shadow: 2px 2px 5px rgb(242, 113, 139);
+    width:90px;
+    height: 60px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 35px;
+}
