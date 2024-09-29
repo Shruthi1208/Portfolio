@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shruthi's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="scripts.js"></script>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">Shruthi P.</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#roles-responsibilities">Roles</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+   <!-- Home Section -->
+<section id="home">
+    <video autoplay muted loop id="bg-video">
+        <source src="C:\Users\pedda\OneDrive\Desktop\Portfolio\19419586-hd_1920_1080_30fps.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="overlay">
+        <h1>Welcome to My Portfolio</h1>
+        <p class="home-para">I'm Shruthi Peddaboyina, a passionate coder.</p>
+    </div>
+</section>
+
+
+    <!-- About Section -->
+<section id="about">
+    <div class="about-container">
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>Hello! I am Shruthi Peddaboyina, currently pursuing B.Tech in Computer Science Engineering at BVRIT Hyderabad College of Engineering. I am passionate about technology, AI, and web development.</p>
+            <p>I enjoy building projects that solve real-world problems and exploring cutting-edge technologies like AI, machine learning, and full-stack development. Let’s connect!</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+    </div>
+    <img class="prof" src="me1.jpg"/>
+</section>
+
+
+
+<!-- Skills Section -->
+<section id="skills" class="parallax-skills" style="padding: 100px 0;">
+    <div class="content" style="max-width: 1200px; margin: auto; text-align: center;">
+        <h2 style="font-size: 3em; margin-bottom: 50px; color: #fff;">My Skills</h2>
+
+        <div class="skills-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; padding: 0 20px;">
+            <!-- Skill Card 1: Programming Languages -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front" style="background-color: #6fe1ac; padding: 40px; border-radius: 10px; color: #fff;">
+                        <i class="fas fa-code" style="font-size: 3em; margin-bottom: 20px;"></i>
+                        <h3 style="font-size: 1.5em;">Programming Languages</h3>
+                    </div>
+                    <div class="flip-card-back" style="background-color: #023e8a; padding: 40px; border-radius: 10px; color: #fff;">
+                        <div class="icons" style="display: flex; justify-content: center; gap: 20px;">
+                            <i class="fab fa-python" style="font-size: 3em; color: #ffde57;"></i>
+                            <i class="fab fa-java" style="font-size: 3em; color: #ff5722;"></i>
+                            <i class="fab fa-cuttlefish" style="font-size: 3em; color: #00b4d8;"></i> <!-- C/C++ -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skill Card 2: Frontend Development -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front" style="background-color: #bece63; padding: 40px; border-radius: 10px; color: #fff;">
+                        <i class="fas fa-laptop-code" style="font-size: 3em; margin-bottom: 20px;"></i>
+                        <h3 style="font-size: 1.5em;">Frontend Development</h3>
+                    </div>
+                    <div class="flip-card-back" style="background-color: #023e8a; padding: 40px; border-radius: 10px; color: #fff;">
+                        <div class="icons" style="display: flex; justify-content: center; gap: 20px;">
+                            <i class="fab fa-html5" style="font-size: 3em; color: #e34f26;"></i>
+                            <i class="fab fa-css3-alt" style="font-size: 3em; color: #1572b6;"></i>
+                            <i class="fab fa-js-square" style="font-size: 3em; color: #f7df1e;"></i>
+                            <i class="fab fa-react" style="font-size: 3em; color: #61dafb;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skill Card 3: Backend Development -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front" style="background-color: #00b4d8; padding: 40px; border-radius: 10px; color: #fff;">
+                        <i class="fas fa-server" style="font-size: 3em; margin-bottom: 20px;"></i>
+                        <h3 style="font-size: 1.5em;">Backend Development</h3>
+                    </div>
+                    <div class="flip-card-back" style="background-color: #023e8a; padding: 40px; border-radius: 10px; color: #fff;">
+                        <div class="icons" style="display: flex; justify-content: center; gap: 20px;">
+                            <i class="fab fa-node" style="font-size: 3em; color: #68a063;"></i>
+                            <i class="fab fa-python" style="font-size: 3em; color: #ffde57;"></i>
+                            <i class="fab fa-java" style="font-size: 3em; color: #ff5722;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skill Card 4: Databases -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front" style="background-color: #d98652; padding: 40px; border-radius: 10px; color: #fff;">
+                        <i class="fas fa-database" style="font-size: 3em; margin-bottom: 20px;"></i>
+                        <h3 style="font-size: 1.5em;">Databases</h3>
+                    </div>
+                    <div class="flip-card-back" style="background-color: #023e8a; padding: 40px; border-radius: 10px; color: #fff;">
+                        <div class="icons" style="display: flex; justify-content: center; gap: 20px;">
+                            <i class="fas fa-database" style="font-size: 3em; color: #f9aa33;"></i> <!-- SQLite -->
+                            <i class="fas fa-database" style="font-size: 3em; color: #00758f;"></i> <!-- MySQL -->
+                            <i class="fas fa-leaf" style="font-size: 3em; color: #4caf50;"></i> <!-- MongoDB -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skill Card 5: Tools -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front" style="background-color: #d368cf; padding: 40px; border-radius: 10px; color: #fff;">
+                        <i class="fas fa-tools" style="font-size: 3em; margin-bottom: 20px;"></i>
+                        <h3 style="font-size: 1.5em;">Tools</h3>
+                    </div>
+                    <div class="flip-card-back" style="background-color: #023e8a; padding: 40px; border-radius: 10px; color: #fff;">
+                        <div class="icons" style="display: flex; justify-content: center; gap: 20px;">
+                            <i class="fab fa-git" style="font-size: 3em; color: #f05033;"></i>
+                            <i class="fab fa-github" style="font-size: 3em; color: #fff;"></i>
+                            <i class="fab fa-docker" style="font-size: 3em; color: #0db7ed;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skill Card 6: Other Technical Skills -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front" style="background-color: #9b49e8; padding: 40px; border-radius: 10px; color: #fff;">
+                        <i class="fas fa-cogs" style="font-size: 3em; margin-bottom: 20px;"></i>
+                        <h3 style="font-size: 1.5em;">Other Technical Skills</h3>
+                    </div>
+                    <div class="flip-card-back" style="background-color: #023e8a; padding: 40px; border-radius: 10px; color: #fff;">
+                        <p>DSA, Tableau, Power BI, AWS, AI & ML</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skill Card 7: Soft Skills -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front" style="background-color: #a94382; padding: 40px; border-radius: 10px; color: #fff;">
+                        <i class="fas fa-users" style="font-size: 3em; margin-bottom: 20px;"></i>
+                        <h3 style="font-size: 1.5em;">Soft Skills</h3>
+                    </div>
+                    <div class="flip-card-back" style="background-color: #023e8a; padding: 40px; border-radius: 10px; color: #fff;">
+                        <p>Creativity, Leadership, Teamwork, Time Management</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    /* Parallax background for Skills section */
+    .parallax-skills {
+        background-image: url('C:\Users\pedda\OneDrive\Desktop\Portfolio\me.jpg'); /* Add your relevant background image */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* Flip Card Container */
+    .flip-card {
+        background-color: transparent;
+        width: 100%;
+        height: 300px;
+        perspective: 1000px;
+    }
+
+    /* Flip Card Inner */
+    .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+    }
+
+    .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+
+    /* Flip Card Front and Back */
+    .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        border-radius: 10px;
+    }
+
+    .flip-card-front {
+        background-color: #00b4d8;
+        color: white;
+    }
+
+    .flip-card-back {
+        background-color: #023e8a;
+        color: white;
+        transform: rotateY(180deg);
+    }
+
+    /* Icons in the flip cards */
+    .icons i {
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .flip-card-back:hover .icons i {
+        transform: scale(1.2); /* Enlarges the icons slightly on hover */
+    }
+</style>
+
+
+<!-- Education Section -->
+<section id="education" class="parallax-education" style="padding: 100px 0;">
+    <div class="content" style="max-width: 1200px; margin: auto; text-align: center;">
+        <h2 style="font-size: 3em; margin-bottom: 30px; color: #fff;">Education</h2>
+
+        <div class="education-timeline" style="position: relative; margin: 50px 0;">
+            <!-- Timeline Line -->
+            <div class="timeline-line" style="position: absolute; left: 50%; top: 0; bottom: 0; width: 4px; background-color: #00b4d8;"></div>
+
+            <!-- Education Item 1 -->
+            <div class="timeline-item" style="display: flex; justify-content: flex-start; align-items: center; margin-bottom: 50px; position: relative;">
+                <div class="timeline-content" style="position: relative; width: 50%; padding: 20px; text-align: right;">
+                    <h3 class="clg-course" style="font-size: 1.8em; color: #fff;">B.Tech in Computer Science Engineering</h3>
+                    <p class="clg-name" style="color: #fff;">BVRIT Hyderabad College of Engineering</p>
+                </div>
+                <div class="timeline-icon" style="position: absolute; left: 50%; transform: translateX(-50%);">
+                    <i class="fas fa-university" style="font-size: 2em; color: #00b4d8; background-color: #fff; padding: 15px; border-radius: 50%;"></i>
+                </div>
+            </div>
+
+            <!-- Education Item 2 -->
+            <div class="timeline-item" style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 50px; position: relative;">
+                <div class="timeline-content" style="position: relative; width: 50%; padding: 20px; text-align: left;">
+                    <h3 class="clg-course1" style="font-size: 1.8em; color: #fff;">Intermediate</h3>
+                    <p class="clg-name1" style="color: #fff;">Sri Chaitanya Junior College</p>
+                </div>
+                <div class="timeline-icon1" style="position: absolute; right: 50%; transform: translateX(50%);">
+                    <i class="fas fa-school" style="font-size: 2em; color: #00b4d8; background-color: #fff; padding: 15px; border-radius: 50%;"></i>
+                </div>
+            </div>
+
+            <!-- Education Item 3 -->
+            <div class="timeline-item" style="display: flex; justify-content: flex-start; align-items: center; margin-bottom: 50px; position: relative;">
+                <div class="timeline-content" style="position: relative; width: 50%; padding: 20px; text-align: right;">
+                    <h3 class="clg-course" style="font-size: 1.8em; color: #fff;">Schooling</h3>
+                    <p class="clg-name" style="color: #fff;">Excellent E/M High School</p>
+                </div>
+                <div class="timeline-icon" style="position: absolute; left: 50%; transform: translateX(-50%);">
+                    <i class="fas fa-graduation-cap" style="font-size: 2em; color: #00b4d8; background-color: #fff; padding: 15px; border-radius: 50%;"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    /* Parallax background for Education section */
+    .parallax-education {
+        background-image: url('https://wallpapercave.com/wp/wp3194646.jpg'); /* Add a relevant background image */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* Timeline Line */
+    .timeline-line {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        bottom: 0;
+        width: 4px;
+        background-color: #00b4d8;
+    }
+
+    /* Timeline Items */
+    .timeline-item {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 50px;
+        position: relative;
+    }
+
+    .timeline-item:nth-child(even) {
+        justify-content: flex-end;
+    }
+
+    /* Timeline Content */
+    .timeline-content {
+        position: relative;
+        width: 50%;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+        color: #fff;
+    }
+
+    /* Timeline Icons */
+    .timeline-icon {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 0;
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 50%;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    .timeline-icon1 {
+        position: absolute;
+        right: 50%;
+        transform: translateX(-50%);
+        top: 0;
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 50%;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Hover Effects */
+    .timeline-item:hover .timeline-icon {
+        background-color: #00b4d8;
+        color: #fff;
+        transition: 0.3s;
+    }
+    .timeline-item:hover .timeline-icon1 {
+        background-color: #00b4d8;
+        color: #fff;
+        transition: 0.3s;
+    }
+
+    .timeline-item:hover .timeline-content {
+        background-color: rgba(0, 0, 0, 0.8);
+        transform: scale(1.05);
+        transition: 0.3s;
+    }
+</style>
+
+
+<section id="hobbies" class="hobbies-section">
+    <div class="hobbies-container">
+        <h2>My Hobbies</h2>
+       
+        <div class="hobbies-content">
+            <ul class="hobbies-list">
+                <li class="hobby-item">🎮 Playing Chess</li>
+                <li class="hobby-item">🎨 Drawing</li>
+                <li class="hobby-item">💻 Learning New Technologies</li>
+                <li class="hobby-item">🎤 Listening to Motivational Videos by Ms. Sudha Murthy and Dr. A.P.J. Abdul Kalam</li>
+                <li class="hobby-item">🎬 Watching Movies</li>
+                <li class="hobby-item">🌌 Enjoying Animes</li>
+            </ul>
+       
+        </div>
+    </div>
+</section>
+
+
+<section id="projects" class="projects-section">
+    <div class="projects-container">
+        <h2 class="pro-head1">🚀 Projects</h2>
+        <div class="project-box">
+            <i class="fas fa-chess-king project-icon"></i>
+            <h3>Knowledgeable Knights</h3>
+            <p>An interactive application designed to solve and visualize the classic Knight's Tour problem. Built with Python's Tkinter library.</p>
+            <a href="https://github.com/Shruthi1208/KnowledgeableKnights.git" target="_blank" class="project-link">View on GitHub</a>
+        </div>
+    
+        <div class="project-box">
+            <i class="fab fa-python project-icon"></i>
+            <h3>Weed Detection using Python and OpenCV</h3>
+            <p>A project that detects weeds in images using image processing techniques.</p>
+            <a href="https://github.com/Shruthi1208/WeedDetection.git" target="_blank" class="project-link">View on GitHub</a>
+        </div>
+        <div class="project-box">
+            <i class="fas fa-shopping-cart project-icon"></i>
+            <h3>E-commerce Platform Development</h3>
+            <p>A full-stack application for an online shopping platform.</p>
+            <a href="https://github.com/Shruthi1208/RestaurantWeb.git" target="_blank" class="project-link">View on GitHub</a>
+        </div>
+        <div class="project-box">
+            <i class="fas fa-robot project-icon"></i>
+            <h3>Gen AI Chatbot using Hugging Face and LangChain</h3>
+            <p>A chatbot that leverages AI to answer questions effectively.</p>
+            <a href="https://github.com/Shruthi1208/GenAISpeech.git" target="_blank" class="project-link">View on GitHub</a>
+        </div>
+        <div class="project-box">
+            <i class="fas fa-book project-icon"></i>
+            <h3>BookHub Clone</h3>
+            <p>A full-stack web application that replicates the functionality of BookHub, allowing users to browse, search, and review books. Built with modern web technologies including React.js, Node.js, and MongoDB.</p>
+            <a href="https://github.com/Shruthi1208/BookHub.git" target="_blank" class="project-link">View on GitHub</a>
+        </div>
+        
+    </div>
+</section>
+
+<section id="certifications" class="certifications-section">
+    <div class="certifications-container">
+        <h2>Certifications</h2>
+        <div class="certifications-grid">
+            <div class="certification-card">
+                <span class="year">2022-2024</span>
+                <h3>Frontend & Backend Development</h3>
+                <p>(React JS, Python, Java, Express.js, SQL - nasscom certified)</p>
+            </div>
+            <div class="certification-card">
+                <span class="year">2023</span>
+                <h3>AWS, Power BI, Ethical Hacking, AI Tools Workshop</h3>
+                <p>(Completed workshops and certifications)</p>
+            </div>
+            <div class="certification-card">
+                <span class="year">2023</span>
+                <h3>Google Coursera Certification</h3>
+                <p>(Foundations of Cybersecurity)</p>
+            </div>
+            <div class="certification-card">
+                <span class="year">2023</span>
+                <h3>Smart Interviews</h3>
+                <p>(Achieved global rank of 800 under DSA Batch-37)</p>
+            </div>
+            <div class="certification-card">
+                <span class="year">2024</span>
+                <h3>Hackerrank and Unstop Events</h3>
+                <p>(Participated in various coding challenges and competitive programming events)</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+    
+    <section id="roles-responsibilities" class="roles-section">
+        <div class="roles-container">
+            <h2>Roles & Responsibilities</h2>
+            <div class="roles-content">
+                <ul class="roles-list">
+                    <li class="role-item">👥 Team Lead for Various Projects and Hackathons</li>
+                    <li class="role-item">📚 Student Success Coach for Juniors</li>
+                    <li class="role-item">🎓 Student Coordinator in CSE Department</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="achievements" class="achievements-section">
+        <div class="achievements-container">
+            <h2 class="ach">🏆 Achievements</h2>
+            <div class="achievements-wrapper">
+                <div class="achievement">
+                    <div class="achievement-icon">🌟</div>
+                    <div class="achievement-info">
+                        <h3>2018</h3>
+                        <p>Navodaya Exam Entrance Selections</p>
+                        <p>One of the selected students from all test takers.</p>
+                    </div>
+                </div>
+                <div class="achievement">
+                    <div class="achievement-icon">🏅</div>
+                    <div class="achievement-info">
+                        <h3>2024</h3>
+                        <p>Smart Interviews DSA</p>
+                        <p>Achieved global rank of 800 among 32,000 students.</p>
+                    </div>
+                </div>
+                <div class="achievement">
+                    <div class="achievement-icon">🚀</div>
+                    <div class="achievement-info">
+                        <h3>2024</h3>
+                        <p>Smart India Hackathon</p>
+                        <p>Selected as part of the internal Hackathon.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="lines">
+                <div class="line"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+            </div>
+        </div>
+    </section>
+    
+        
+<!-- Contact Section -->
+<section id="contact" style="background-color: #f4f4f4; padding: 40px 0;">
+    <div class="content" style="text-align: center; max-width: 800px; margin: auto;">
+        <h2 style="font-size: 2.5em; color: #333;">Contact Me</h2>
+        <p style="font-size: 1.2em; color: #666; margin-bottom: 40px;">
+            If you'd like to get in touch, feel free to reach out on my social media profiles or via email:
+        </p>
+        <div class="social-links" style="display: flex; justify-content: center; gap: 20px;">
+            <a href="https://www.linkedin.com/in/shruthi-peddaboyina" target="_blank" class="social-icon">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://stackoverflow.com/users/26630405/peddaboyina-shruthi" target="_blank" class="social-icon">
+                <i class="fab fa-stack-overflow"></i>
+            </a>
+            <a href="https://quora.com/profile/Peddaboyina-Shruthi" target="_blank" class="social-icon">
+                <i class="fab fa-quora"></i>
+            </a>
+            <a href="mailto:peddaboyinashruthi@gmail.com" class="social-icon">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://github.com/Shruthi1208" target="_blank" class="social-icon">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://twitter.com/shruthi1208" target="_blank" class="social-icon">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+<style>
+    #contact .social-links a {
+        font-size: 2em;
+        color: #555;
+        transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+    #contact .social-links a:hover {
+        color: #3498db; /* Change to any highlight color you prefer */
+        transform: scale(1.2);
+    }
+
+    #contact .social-links a .fab,
+    #contact .social-links a .fas {
+        transition: all 0.3s ease;
+    }
+
+    #contact .social-links a:hover .fab,
+    #contact .social-links a:hover .fas {
+        color: #2c3e50; /* Darker color for hover effect */
+    }
+
+    /* Add animation to icons on page load */
+    @keyframes icon-pop {
+        0% {
+            transform: scale(0);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    .social-icon {
+        animation: icon-pop 0.5s ease forwards;
+    }
+
+    /* Delay animation for each icon */
+    .social-links a:nth-child(1) {
+        animation-delay: 0.1s;
+    }
+
+    .social-links a:nth-child(2) {
+        animation-delay: 0.2s;
+    }
+
+    .social-links a:nth-child(3) {
+        animation-delay: 0.3s;
+    }
+
+    .social-links a:nth-child(4) {
+        animation-delay: 0.4s;
+    }
+
+    .social-links a:nth-child(5) {
+        animation-delay: 0.5s;
+    }
+
+    .social-links a:nth-child(6) {
+        animation-delay: 0.6s;
+    }
+</style>
+
+
+</body>
+</html>
