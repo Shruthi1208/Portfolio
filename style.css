@@ -38,6 +38,8 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden; /* Hide any overflow from the video */
+    background-image: url("csstudent.gif");
+    background-size: cover;
 }
 .home-para{
     color:#ffffff;
